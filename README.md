@@ -1,6 +1,6 @@
-[![GitHub version](https://badge.fury.io/gh/proficlos%2Fphonenumber.svg)](https://badge.fury.io/gh/proficlos%2Fphonenumber)
-[![travis-ci.com](https://travis-ci.com/ProfiCloS/PhoneNumber.svg?branch=master)](https://travis-ci.com/ProfiCloS/PhoneNumber)
-[![codecov.io](https://codecov.io/github/ProfiCloS/PhoneNumber/coverage.svg?branch=master)](https://codecov.io/github/ProfiCloS/PhoneNumber?branch=master)
+[![GitHub version](https://badge.fury.io/gh/ProfiCloS%2Fopenstack-nette.svg)](https://badge.fury.io/gh/ProfiCloS%2Fopenstack-nette)
+[![travis-ci.com](https://travis-ci.com/ProfiCloS/openstack-nette.svg?branch=master)](https://travis-ci.com/ProfiCloS/openstack-nette)
+[![codecov.io](https://codecov.io/github/ProfiCloS/openstack-nette/coverage.svg?branch=master)](https://codecov.io/github/ProfiCloS/openstack-nette?branch=master)
 
 # OpenStack for Nette Framework
 
