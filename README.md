@@ -10,9 +10,51 @@ $ composer require proficlos/openstack-nette
 ```
 
 # How to use
-```php
-
+Enable extension using neon
+```yml
+extensions:
+	openstack: ProfiCloS\OpenStack\OpenStackExtension
 ```
+
+Configure credentials
+```yml
+openstack:
+	authVersion: v2.0
+	authUrl: https://auth.cloud.ovh.net/v2.0/
+	region: REGION
+	userId: userIdentificator
+	password: password
+	projectId: projectTenant
+```
+
+Inject in presenter
+```php
+/** @var \ProfiCloS\OpenStack @inject */
+public $openStack;
+```
+
+Prepare and next usage is by [php-opencloud/openstack](https://github.com/php-opencloud/openstack/) 
+```php
+/* object store */
+$objectStorage = $this->openStack->objectStoreV1();
+
+/* compute */
+$compute = $this->openStack->computeV2();
+
+/* networking */
+$compute = $this->openStack->networkingV2();
+
+/* images */
+$compute = $this->openStack->imagesV2();
+
+/* 
+   and others ...
+*/
+
+/* or returns full php-opencloud/openstack */
+$openStack = $this->openStack->getOpenStack();
+```
+
 
 # Buy us a coffee <3
 [![Buy me a Coffee](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E8NK53NGKVDHS)
