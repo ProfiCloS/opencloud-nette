@@ -1,5 +1,4 @@
 [![GitHub version](https://badge.fury.io/gh/ProfiCloS%2Fopenstack-nette.svg)](https://badge.fury.io/gh/ProfiCloS%2Fopenstack-nette)
-[![travis-ci.com](https://travis-ci.com/ProfiCloS/openstack-nette.svg?branch=master)](https://travis-ci.com/ProfiCloS/openstack-nette)
 
 # OpenStack for Nette Framework
 
